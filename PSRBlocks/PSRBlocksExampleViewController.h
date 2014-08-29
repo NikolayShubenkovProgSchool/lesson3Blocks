@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PSRBlocksExampleViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *firstView;
+@property (weak, nonatomic) IBOutlet UIView *secondView;
 
 @end
 
