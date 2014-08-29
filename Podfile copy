@@ -1,0 +1,9 @@
+platform :ios, 6.0
+pod 'DLAlertView', '~> 1.2'
+
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MagicalRecord', '~> 2.2'
+pod 'FXKeychain', '~> 1.5'
+pod 'TBXML', '~> 1.5'
+pod 'BRCocoaLumberjack', '~> 1.8'

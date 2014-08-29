@@ -1,0 +1,10 @@
+PODS:
+  - DLAlertView (1.2.2)
+
+DEPENDENCIES:
+  - DLAlertView (~> 1.2)
+
+SPEC CHECKSUMS:
+  DLAlertView: 2e3cf744650e8243b272edbcfc9f9a820f79af4d
+
+COCOAPODS: 0.33.1
