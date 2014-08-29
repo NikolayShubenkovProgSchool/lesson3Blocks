@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FEDCB2B119B0DCB800FB2919 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDCB2B019B0DCB800FB2919 /* main.m */; };
 		FEDCB2B419B0DCB800FB2919 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDCB2B319B0DCB800FB2919 /* AppDelegate.m */; };
-		FEDCB2B719B0DCB800FB2919 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDCB2B619B0DCB800FB2919 /* ViewController.m */; };
+		FEDCB2B719B0DCB800FB2919 /* PSRBlocksExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDCB2B619B0DCB800FB2919 /* PSRBlocksExampleViewController.m */; };
 		FEDCB2BA19B0DCB800FB2919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDCB2B819B0DCB800FB2919 /* Main.storyboard */; };
 		FEDCB2BC19B0DCB800FB2919 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDCB2BB19B0DCB800FB2919 /* Images.xcassets */; };
 		FEDCB2C819B0DCB800FB2919 /* PSRBlocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDCB2C719B0DCB800FB2919 /* PSRBlocksTests.m */; };
@@ -31,8 +31,8 @@
 		FEDCB2B019B0DCB800FB2919 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEDCB2B219B0DCB800FB2919 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FEDCB2B319B0DCB800FB2919 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FEDCB2B519B0DCB800FB2919 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FEDCB2B619B0DCB800FB2919 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEDCB2B519B0DCB800FB2919 /* PSRBlocksExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSRBlocksExampleViewController.h; sourceTree = "<group>"; };
+		FEDCB2B619B0DCB800FB2919 /* PSRBlocksExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSRBlocksExampleViewController.m; sourceTree = "<group>"; };
 		FEDCB2B919B0DCB800FB2919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEDCB2BB19B0DCB800FB2919 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FEDCB2C119B0DCB800FB2919 /* PSRBlocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSRBlocksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,8 +81,8 @@
 			children = (
 				FEDCB2B219B0DCB800FB2919 /* AppDelegate.h */,
 				FEDCB2B319B0DCB800FB2919 /* AppDelegate.m */,
-				FEDCB2B519B0DCB800FB2919 /* ViewController.h */,
-				FEDCB2B619B0DCB800FB2919 /* ViewController.m */,
+				FEDCB2B519B0DCB800FB2919 /* PSRBlocksExampleViewController.h */,
+				FEDCB2B619B0DCB800FB2919 /* PSRBlocksExampleViewController.m */,
 				FEDCB2B819B0DCB800FB2919 /* Main.storyboard */,
 				FEDCB2BB19B0DCB800FB2919 /* Images.xcassets */,
 				FEDCB2AE19B0DCB800FB2919 /* Supporting Files */,
@@ -215,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEDCB2B719B0DCB800FB2919 /* ViewController.m in Sources */,
+				FEDCB2B719B0DCB800FB2919 /* PSRBlocksExampleViewController.m in Sources */,
 				FEDCB2B419B0DCB800FB2919 /* AppDelegate.m in Sources */,
 				FEDCB2B119B0DCB800FB2919 /* main.m in Sources */,
 			);
